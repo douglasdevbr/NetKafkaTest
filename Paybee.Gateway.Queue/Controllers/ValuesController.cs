@@ -28,8 +28,8 @@ namespace Paybee.Gateway.Queue.Controllers
         [HttpPost]
         public string Post([FromQuery]string value)
         {
-            QueueHelper helper = new QueueHelper();
-            return   helper.writeText(value, "teste");
+            QueueHelper2 helper = new QueueHelper2();
+            return   helper.writeText(value, "4ybv-dado");
         }
 
         // PUT api/values/5
